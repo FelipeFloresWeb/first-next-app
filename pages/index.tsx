@@ -26,13 +26,14 @@ const Home: NextPage<{ randomPokemon: RandomPokemon }> = ({
         {!colorMode ? <MoonIcon /> : <SunIcon />}
         <Switch
           ml={2}
+          data-testid="color-mode-switch"
           onChange={() => {
             toggleColorMode();
             setColorMode(!colorMode);
           }}
         />
       </Box>
-      <Heading>Battle Game!</Heading>
+      <Heading data-testid="main-title">Battle Game!</Heading>
       <PokemonCard randomPokemon={randomPokemon} />
       <Button
         onClick={getRandomPokemon}
