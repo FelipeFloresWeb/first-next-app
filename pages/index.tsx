@@ -13,10 +13,12 @@ import {
 } from "@chakra-ui/react";
 import { useState } from "react";
 import { PokemonCard } from "../components/PokemonCard";
+import { getRandomPokemon } from "../services/pokemons";
 
 const Home: NextPage<{ randomPokemon: RandomPokemon }> = ({
   randomPokemon,
 }) => {
+  const [pokemons, setPokemons] = useState<RandomPokemon>(randomPokemon);
   const [colorMode, setColorMode] = useState(false);
 
   const { toggleColorMode } = useColorMode();
@@ -34,9 +36,12 @@ const Home: NextPage<{ randomPokemon: RandomPokemon }> = ({
         />
       </Box>
       <Heading data-testid="main-title">Battle Game!</Heading>
-      <PokemonCard randomPokemon={randomPokemon} />
+      <PokemonCard randomPokemon={pokemons} />
       <Button
-        onClick={getRandomPokemon}
+        onClick={async () => {
+          const pokemons = await getRandomPokemon();
+          setPokemons(pokemons);
+        }}
         mt={4}
         colorScheme="cyan"
         variant="solid"
@@ -46,19 +51,6 @@ const Home: NextPage<{ randomPokemon: RandomPokemon }> = ({
     </Flex>
   );
 };
-
-async function getRandomPokemon() {
-  const randomNumber = Math.floor(Math.random() * 807) + 1;
-  try {
-    const pokemon = await axios.get(
-      `https://pokeapi.co/api/v2/pokemon/${randomNumber}`
-    );
-
-    return pokemon.data;
-  } catch (error) {
-    return error;
-  }
-}
 
 export const getServerSideProps: GetServerSideProps = async () => {
   const randomPokemon = await getRandomPokemon();
