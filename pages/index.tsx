@@ -1,4 +1,4 @@
-import type { GetServerSideProps } from "next";
+import type { GetServerSideProps, NextPage } from "next";
 import Image from "next/image";
 import axios from "axios";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
@@ -8,66 +8,32 @@ import {
   Button,
   Flex,
   Heading,
-  Text,
+  Switch,
   useColorMode,
 } from "@chakra-ui/react";
 import { useState } from "react";
+import { PokemonCard } from "../components/PokemonCard";
 
-const Home = ({ randomPokemon }: { randomPokemon: RandomPokemon }) => {
+const Home: NextPage<{ randomPokemon: RandomPokemon }> = ({
+  randomPokemon,
+}) => {
   const [colorMode, setColorMode] = useState(false);
 
   const { toggleColorMode } = useColorMode();
   return (
     <Flex direction="column" alignItems="center" justifyContent="center">
-      {!colorMode ? (
-        <MoonIcon
-          mt={4}
-          onClick={() => {
+      <Box>
+        {!colorMode ? <MoonIcon /> : <SunIcon />}
+        <Switch
+          ml={2}
+          onChange={() => {
             toggleColorMode();
             setColorMode(!colorMode);
           }}
-          _hover={{ cursor: "pointer" }}
         />
-      ) : (
-        <SunIcon
-          mt={4}
-          onClick={() => {
-            toggleColorMode();
-            setColorMode(!colorMode);
-          }}
-          _hover={{ cursor: "pointer" }}
-        />
-      )}
+      </Box>
       <Heading>Battle Game!</Heading>
-      <Flex
-        direction="row"
-        background="blue.400"
-        p={5}
-        rounded={8}
-        alignItems="center"
-      >
-        <Box alignItems="center">
-          <Heading textAlign="center">
-            {randomPokemon.name[0].toUpperCase() + randomPokemon.name.slice(1)}
-          </Heading>
-          <Image
-            unoptimized
-            fallbackSrc={<div>Error to getImage</div>}
-            src={randomPokemon.sprites.front_default}
-            alt={randomPokemon.name}
-            width={200}
-            height={200}
-          />
-        </Box>
-        <Box alignItems="center">
-          {randomPokemon.stats.map((stat) => (
-            <Text fontSize={25} textAlign="center" key={stat.stat.name}>
-              {stat.stat.name[0].toUpperCase() + stat.stat.name.slice(1)}:{" "}
-              {stat.base_stat}
-            </Text>
-          ))}
-        </Box>
-      </Flex>
+      <PokemonCard randomPokemon={randomPokemon} />
       <Button
         onClick={getRandomPokemon}
         mt={4}
