@@ -1,0 +1,661 @@
+{
+  "C:\\Users\\felip\\Projects\\first-next-app\\components\\HealtBar.tsx": {
+    "path": "C:\\Users\\felip\\Projects\\first-next-app\\components\\HealtBar.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 2
+        },
+        "end": {
+          "line": 9,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "HealtBar",
+        "decl": {
+          "start": {
+            "line": 3,
+            "column": 16
+          },
+          "end": {
+            "line": 3,
+            "column": 24
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 3,
+            "column": 27
+          },
+          "end": {
+            "line": 10,
+            "column": 1
+          }
+        },
+        "line": 3
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2
+    },
+    "f": {
+      "0": 2
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "e959a2ca14c2c15373fc1e7a919584c624268851"
+  },
+  "C:\\Users\\felip\\Projects\\first-next-app\\components\\Layout.tsx": {
+    "path": "C:\\Users\\felip\\Projects\\first-next-app\\components\\Layout.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 2
+        },
+        "end": {
+          "line": 8,
+          "column": 31
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "Layout",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 16
+          },
+          "end": {
+            "line": 7,
+            "column": 22
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 50
+          },
+          "end": {
+            "line": 9,
+            "column": 1
+          }
+        },
+        "line": 7
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 2
+    },
+    "f": {
+      "0": 2
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "3fe93112278d49e893ea6a3d706044bde1fe3807"
+  },
+  "C:\\Users\\felip\\Projects\\first-next-app\\pages\\style.ts": {
+    "path": "C:\\Users\\felip\\Projects\\first-next-app\\pages\\style.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 1,
+          "column": 22
+        },
+        "end": {
+          "line": 7,
+          "column": 1
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 1
+    },
+    "f": {},
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "88bfc6a3b071ae9785222c30036012b41f43cf9a"
+  },
+  "C:\\Users\\felip\\Projects\\first-next-app\\pages\\_app.tsx": {
+    "path": "C:\\Users\\felip\\Projects\\first-next-app\\pages\\_app.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 7,
+          "column": 21
+        },
+        "end": {
+          "line": 7,
+          "column": 44
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 17,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "MyApp",
+        "decl": {
+          "start": {
+            "line": 9,
+            "column": 9
+          },
+          "end": {
+            "line": 9,
+            "column": 14
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 51
+          },
+          "end": {
+            "line": 18,
+            "column": 1
+          }
+        },
+        "line": 9
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 2
+    },
+    "f": {
+      "0": 2
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "ee895ccb75084730dc9aa6b2a23c33ccc4e122ed"
+  },
+  "C:\\Users\\felip\\Projects\\first-next-app\\components\\PokemonCard.tsx": {
+    "path": "C:\\Users\\felip\\Projects\\first-next-app\\components\\PokemonCard.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 2
+        },
+        "end": {
+          "line": 41,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 34,
+          "column": 10
+        },
+        "end": {
+          "line": 37,
+          "column": 17
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "PokemonCard",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 16
+          },
+          "end": {
+            "line": 5,
+            "column": 27
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 9,
+            "column": 3
+          },
+          "end": {
+            "line": 42,
+            "column": 1
+          }
+        },
+        "line": 9
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 33,
+            "column": 33
+          },
+          "end": {
+            "line": 33,
+            "column": 34
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 34,
+            "column": 10
+          },
+          "end": {
+            "line": 37,
+            "column": 17
+          }
+        },
+        "line": 34
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 4,
+      "1": 24
+    },
+    "f": {
+      "0": 4,
+      "1": 24
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "cfce00cad438ea4751f6a63e6e4653a81afe9d5c"
+  },
+  "C:\\Users\\felip\\Projects\\first-next-app\\services\\pokemons.ts": {
+    "path": "C:\\Users\\felip\\Projects\\first-next-app\\services\\pokemons.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 5,
+          "column": 23
+        },
+        "end": {
+          "line": 5,
+          "column": 58
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 3
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 20
+        },
+        "end": {
+          "line": 9,
+          "column": 5
+        }
+      },
+      "3": {
+        "start": {
+          "line": 11,
+          "column": 4
+        },
+        "end": {
+          "line": 11,
+          "column": 24
+        }
+      },
+      "4": {
+        "start": {
+          "line": 13,
+          "column": 4
+        },
+        "end": {
+          "line": 13,
+          "column": 17
+        }
+      },
+      "5": {
+        "start": {
+          "line": 17,
+          "column": 54
+        },
+        "end": {
+          "line": 24,
+          "column": 1
+        }
+      },
+      "6": {
+        "start": {
+          "line": 18,
+          "column": 24
+        },
+        "end": {
+          "line": 18,
+          "column": 48
+        }
+      },
+      "7": {
+        "start": {
+          "line": 19,
+          "column": 2
+        },
+        "end": {
+          "line": 23,
+          "column": 4
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "getRandomPokemon",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 22
+          },
+          "end": {
+            "line": 4,
+            "column": 38
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 41
+          },
+          "end": {
+            "line": 15,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 17,
+            "column": 54
+          },
+          "end": {
+            "line": 17,
+            "column": 55
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 66
+          },
+          "end": {
+            "line": 24,
+            "column": 1
+          }
+        },
+        "line": 17
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 0,
+      "1": 0,
+      "2": 0,
+      "3": 0,
+      "4": 0,
+      "5": 1,
+      "6": 0,
+      "7": 0
+    },
+    "f": {
+      "0": 0,
+      "1": 0
+    },
+    "b": {},
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "fcb458814518983ff22baca778fa882e46c3f8ad"
+  },
+  "C:\\Users\\felip\\Projects\\first-next-app\\pages\\index.tsx": {
+    "path": "C:\\Users\\felip\\Projects\\first-next-app\\pages\\index.tsx",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 18,
+          "column": 57
+        },
+        "end": {
+          "line": 53,
+          "column": 1
+        }
+      },
+      "1": {
+        "start": {
+          "line": 21,
+          "column": 34
+        },
+        "end": {
+          "line": 21,
+          "column": 72
+        }
+      },
+      "2": {
+        "start": {
+          "line": 22,
+          "column": 36
+        },
+        "end": {
+          "line": 22,
+          "column": 51
+        }
+      },
+      "3": {
+        "start": {
+          "line": 24,
+          "column": 30
+        },
+        "end": {
+          "line": 24,
+          "column": 44
+        }
+      },
+      "4": {
+        "start": {
+          "line": 25,
+          "column": 2
+        },
+        "end": {
+          "line": 52,
+          "column": 4
+        }
+      },
+      "5": {
+        "start": {
+          "line": 33,
+          "column": 12
+        },
+        "end": {
+          "line": 33,
+          "column": 30
+        }
+      },
+      "6": {
+        "start": {
+          "line": 34,
+          "column": 12
+        },
+        "end": {
+          "line": 34,
+          "column": 37
+        }
+      },
+      "7": {
+        "start": {
+          "line": 42,
+          "column": 27
+        },
+        "end": {
+          "line": 42,
+          "column": 51
+        }
+      },
+      "8": {
+        "start": {
+          "line": 43,
+          "column": 10
+        },
+        "end": {
+          "line": 43,
+          "column": 32
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 18,
+            "column": 57
+          },
+          "end": {
+            "line": 18,
+            "column": 58
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 20,
+            "column": 6
+          },
+          "end": {
+            "line": 53,
+            "column": 1
+          }
+        },
+        "line": 20
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 32,
+            "column": 20
+          },
+          "end": {
+            "line": 32,
+            "column": 21
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 32,
+            "column": 26
+          },
+          "end": {
+            "line": 35,
+            "column": 11
+          }
+        },
+        "line": 32
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 41,
+            "column": 17
+          },
+          "end": {
+            "line": 41,
+            "column": 18
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 41,
+            "column": 29
+          },
+          "end": {
+            "line": 44,
+            "column": 9
+          }
+        },
+        "line": 41
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 28,
+            "column": 9
+          },
+          "end": {
+            "line": 28,
+            "column": 48
+          }
+        },
+        "type": "cond-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 28,
+              "column": 22
+            },
+            "end": {
+              "line": 28,
+              "column": 34
+            }
+          },
+          {
+            "start": {
+              "line": 28,
+              "column": 37
+            },
+            "end": {
+              "line": 28,
+              "column": 48
+            }
+          }
+        ],
+        "line": 28
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 4,
+      "2": 4,
+      "3": 4,
+      "4": 4,
+      "5": 1,
+      "6": 1,
+      "7": 0,
+      "8": 0
+    },
+    "f": {
+      "0": 4,
+      "1": 1,
+      "2": 0
+    },
+    "b": {
+      "0": [
+        2,
+        2
+      ]
+    },
+    "_coverageSchema": "1a1c01bbd47fc00a2c39e90264f33305004495a9",
+    "hash": "dde2672f775a46612ee98971da502330b0cc40a6"
+  }
+}
